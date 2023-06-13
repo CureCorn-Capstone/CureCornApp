@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:padding="30dp"
+    tools:context=".start.Register">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        app:cardCornerRadius="20dp"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="30dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/interbold"
+                android:text="@string/regis"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="36sp"
+                android:textAllCaps="true"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/edt_email_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/black"
+                android:hint="@string/email"
+                android:textColorHint="@color/gray2"
+                android:inputType="textEmailAddress"
+                android:autofillHints="emailAddress" />
+
+            <EditText
+                android:id="@+id/edt_password_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:backgroundTint="@color/black"
+                android:layout_marginTop="10dp"
+                android:hint="@string/pass"
+                android:textColorHint="@color/gray2"
+                android:inputType="textPassword"
+                android:autofillHints="password" />
+
+            <Button
+                android:id="@+id/btn_regis"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"
+                android:fontFamily="@font/intersemibold"
+                android:backgroundTint="@color/green"
+                android:text="@string/btn_reg" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/black"
+                android:text="@string/acc"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/tv_to_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/log"
+                android:textAlignment="center"
+                android:textColor="@color/red"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

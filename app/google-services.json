@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "774001405981",
+    "project_id": "curecornapp",
+    "storage_bucket": "curecornapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:774001405981:android:c804cb61df0763329356f4",
+        "android_client_info": {
+          "package_name": "com.example.curecornapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "774001405981-5mq3l7p4isghk2fpta44o31ta6f6fm8f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5SK7qQNhrcPlOdOYs4ytbV4wp_V_BpY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "774001405981-5mq3l7p4isghk2fpta44o31ta6f6fm8f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

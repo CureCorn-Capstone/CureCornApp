@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">CureCorn</string>
+    <string name="title_home">Home</string>
+    <string name="title_plant">Plant</string>
+    <string name="title_profile">Profile</string>
+    <string name="pass">password</string>
+    <string name="login">Login</string>
+    <string name="username">username</string>
+    <string name="btn_log">Login</string>
+    <string name="regis">Register</string>
+    <string name="btn_reg">Register</string>
+    <string name="email">email</string>
+    <string name="welcom">Welcome to</string>
+    <string name="corn">CureCone!!!</string>
+    <string name="lets">Let\'s look at the corn plant! Enjoy!!!</string>
+    <string name="btn_start">Get Started</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="treatment">Recommended Treatment</string>
+    <string name="obat">Recommended Drug</string>
+    <string name="tips">Cultivation Tips</string>
+    <string name="activity_home_page">Home Page</string>
+    <string name="no_acc">Don\'t have account?</string>
+    <string name="sign">Sign Up</string>
+    <string name="acc">Already have an Account?</string>
+    <string name="log">Log in</string>
+    <string name="logout">Logout</string>
+    <string name="email_mail_com">Email@gmail.com</string>
+    <string name="take_a_picture">Take a Picture</string>
+    <string name="more_info">More Info</string>
+    <string name="condition">Condition:</string>
+</resources>
