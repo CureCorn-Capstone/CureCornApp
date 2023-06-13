@@ -28,4 +28,8 @@
     <string name="take_a_picture">Take a Picture</string>
     <string name="more_info">More Info</string>
     <string name="condition">Condition:</string>
+<<<<<<< HEAD
+=======
+    <string name="gallery">Gallery</string>
+>>>>>>> 0d40f4b (First Commit)
 </resources>

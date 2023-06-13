@@ -11,8 +11,13 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_marginStart="20dp"
+<<<<<<< HEAD
         android:layout_marginTop="300dp"
         android:layout_marginEnd="20dp"
+=======
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="300dp"
+>>>>>>> 0d40f4b (First Commit)
         android:background="@color/white"
         app:cardCornerRadius="10dp">
 
