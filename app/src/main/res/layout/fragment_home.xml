@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".ui.home.HomeFragment">
 
-<<<<<<< HEAD
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -14,52 +13,35 @@
         android:orientation="vertical">
 
         <TextView
-=======
-        <TextView
             android:id="@+id/tv_app"
->>>>>>> 0d40f4b (First Commit)
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/app_name"
             android:textColor="@color/black"
             android:fontFamily="@font/interbold"
-<<<<<<< HEAD
-=======
             android:layout_centerHorizontal="true"
             android:layout_marginTop="20dp"
->>>>>>> 0d40f4b (First Commit)
             android:textSize="28sp"
             android:layout_gravity="center"/>
 
         <ImageView
-<<<<<<< HEAD
             android:layout_width="242dp"
             android:layout_height="194dp"
             android:layout_marginTop="20dp"
             android:layout_gravity="center"
-=======
             android:id="@+id/iv_home"
-            android:layout_width="242dp"
-            android:layout_height="194dp"
             android:layout_below="@+id/tv_app"
-            android:layout_marginTop="30dp"
             android:layout_centerHorizontal="true"
->>>>>>> 0d40f4b (First Commit)
             android:src="@drawable/ic_app" />
 
         <Button
             android:id="@+id/btn_treat"
             android:layout_width="250dp"
             android:layout_height="60dp"
-<<<<<<< HEAD
             android:layout_marginTop="40dp"
-            android:text="@string/treatment"
-=======
             android:text="@string/treatment"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/iv_home"
-            android:layout_marginTop="40dp"
->>>>>>> 0d40f4b (First Commit)
             android:layout_gravity="center"
             android:textColor="@color/black"
             android:backgroundTint="@color/green"/>
@@ -68,16 +50,11 @@
             android:id="@+id/btn_obat"
             android:layout_width="250dp"
             android:layout_height="60dp"
-<<<<<<< HEAD
             android:layout_gravity="center"
             android:text="@string/obat"
-            android:layout_marginTop="30dp"
-=======
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/btn_treat"
             android:layout_marginTop="25dp"
-            android:text="@string/obat"
->>>>>>> 0d40f4b (First Commit)
             android:textColor="@color/black"
             android:backgroundTint="@color/green"/>
 
@@ -86,18 +63,9 @@
             android:layout_width="250dp"
             android:layout_height="60dp"
             android:text="@string/tips"
-<<<<<<< HEAD
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:textColor="@color/black"
             android:backgroundTint="@color/green"/>
     </LinearLayout>
-=======
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/btn_obat"
-            android:layout_marginTop="25dp"
-            android:textColor="@color/black"
-            android:backgroundTint="@color/green"/>
-
->>>>>>> 0d40f4b (First Commit)
 </RelativeLayout>
