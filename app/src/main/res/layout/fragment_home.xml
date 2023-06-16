@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:padding="10dp"
+        android:padding="50dp"
         android:orientation="vertical">
 
         <TextView
@@ -44,6 +44,8 @@
             android:layout_below="@+id/iv_home"
             android:layout_gravity="center"
             android:textColor="@color/black"
+            android:fontFamily="@font/interbold"
+            android:textSize="13sp"
             android:backgroundTint="@color/green"/>
 
         <Button
@@ -56,6 +58,8 @@
             android:layout_below="@+id/btn_treat"
             android:layout_marginTop="25dp"
             android:textColor="@color/black"
+            android:fontFamily="@font/interbold"
+            android:textSize="14sp"
             android:backgroundTint="@color/green"/>
 
         <Button
@@ -66,6 +70,8 @@
             android:layout_gravity="center"
             android:layout_marginTop="30dp"
             android:textColor="@color/black"
+            android:fontFamily="@font/interbold"
+            android:textSize="14sp"
             android:backgroundTint="@color/green"/>
     </LinearLayout>
 </RelativeLayout>

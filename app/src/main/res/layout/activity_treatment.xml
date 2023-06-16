@@ -4,12 +4,90 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".recommend.Treatment">
+    tools:context=".recommend.TreatmentActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/interbold"
+        android:text="@string/treatment"
+        android:textColor="@color/black"
+        android:textSize="30sp"/>
 
-    </LinearLayout>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_leaf"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:background="@drawable/image_leaf"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/gray_leaf_spot"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="260dp"
+        android:fontFamily="@font/interbold"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="310dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_blight"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:background="@drawable/image_blight"
+            android:contentDescription="@string/northern_leaf_blight" />
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/northern_leaf_blight"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="460dp"
+        android:fontFamily="@font/interbold"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="510dp">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_rust"
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:background="@drawable/image_rust"
+            android:contentDescription="@string/common_rust"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/common_rust"
+        android:layout_centerHorizontal="true"
+        android:layout_marginVertical="660dp"
+        android:fontFamily="@font/interbold"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
 </RelativeLayout>

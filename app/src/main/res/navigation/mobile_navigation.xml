@@ -5,11 +5,21 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@+id/navigation_home">
 
-    <fragment
+     <fragment
         android:id="@+id/navigation_home"
         android:name="com.example.curecornapp.ui.home.HomeFragment"
         android:label="@string/title_home"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_navigation_home_to_treatmentActivity"
+            app:destination="@id/treatmentActivity" />
+        <action
+            android:id="@+id/action_navigation_home_to_drugActivity"
+            app:destination="@id/drugActivity" />
+        <action
+            android:id="@+id/action_navigation_home_to_tipsActivity"
+            app:destination="@id/tipsActivity" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_dashboard"
@@ -22,4 +32,19 @@
         android:name="com.example.curecornapp.ui.profile.ProfileFragment"
         android:label="@string/title_profile"
         tools:layout="@layout/fragment_profile" />
+    <activity
+        android:id="@+id/drugActivity"
+        android:name="com.example.curecornapp.recommend.DrugActivity"
+        android:label="activity_drug"
+        tools:layout="@layout/activity_drug" />
+    <activity
+        android:id="@+id/treatmentActivity"
+        android:name="com.example.curecornapp.recommend.TreatmentActivity"
+        android:label="activity_treatment"
+        tools:layout="@layout/activity_treatment" />
+    <activity
+        android:id="@+id/tipsActivity"
+        android:name="com.example.curecornapp.recommend.TipsActivity"
+        android:label="activity_tips"
+        tools:layout="@layout/activity_tips" />
 </navigation>

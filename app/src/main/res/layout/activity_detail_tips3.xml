@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".recommend.tipsDetails.DetailTips3">
+
+    <TextView
+        android:id="@+id/planting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/interbold"
+        android:layout_centerHorizontal="true"
+        android:text="@string/planting_distance"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_soils"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="8dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/planting"
+        android:layout_marginTop="20dp">
+
+        <ImageButton
+            android:id="@+id/btn_soils"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/tips3"/>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="250dp"
+        android:textSize="14sp"
+        android:fontFamily="@font/interregular"
+        android:textColor="@color/black"
+        android:text="@string/detail_tip3"/>
+
+</RelativeLayout>

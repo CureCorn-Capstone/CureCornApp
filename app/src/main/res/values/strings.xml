@@ -29,4 +29,85 @@
     <string name="more_info">More Info</string>
     <string name="condition">Condition:</string>
     <string name="gallery">Gallery</string>
+    <string name="gray_leaf_spot">Gray Leaf Spot</string>
+    <string name="northern_leaf_blight">Northern Leaf Blight</string>
+    <string name="common_rust">Common Rust</string>
+    <string name="details_leaf"><![CDATA[Symptoms:
+\nSmall brown or tan spots that may have a yellow chlorotic halo appear on lower leaves.
+
+\n\nLeaf spot disease caused by the fungus Helminthosporium can be prevented in the following way:
+ \n1. Plow the land before planting to suppressing the seeds of
+     pests and diseases in the soil
+ \n2. Avoid planting corn too tightly to increase air circulation in
+     the plants
+ \n3. Destroy the plants affected by leaf spot by burning or
+     burying in the holes
+
+\n\nIf it has been diseased, then disease control can be done as follows:
+ \n1. Use Foliar fungicide treatment if leaf spot occurs at an early
+      stage but it has to be weighed against the weather
+      condition.
+ \n2. Using a combination of fungicide and varietal resistance.
+      Various studies conducted by experts have shown that the
+      combination of the application of a fungicide with the
+      active ingredient Mankozeb 80%, is able to suppress
+      growth and development. Leaf spot disease of maize.
+ \n3. Using a varietal resistance.
+ \n4. In resistant varieties, the plants contain enzymes secreted
+      by the leaf cell walls that are able to fight the aggressive
+      nature of the fungal spores. Resistance varieties are
+      different each country, but in Indonesia you can use Bisma
+      variety]]></string>
+    <string name="details_rust">Symptoms:
+\nCommon rust is caused by the fungus Puccinia polysora, with symptoms in the form of small spots on the upper and lower surfaces of the leaves. This disease attacks many corn plants which are cultivated in low to high areas and are able todevelop well in the rainy and dry seasons.
+
+\n\nNorthern leaf blight can be treated in the following ways:
+ \n1. Planting types of corn seeds that are resistant to leaf
+        blight, in Indonesia there are lamuru, sukmaraga, palakka,
+        and bima 1.
+ \n2. Destroy the plant which is infected by common rust.
+ \n3. Using fungicide containing benomyl</string>
+    <string name="details_blight">Symptoms:
+\nThe characteristic sign of corn with northern leaf blight is the formation of lesions on the leaves. They are long, narrow lesions that eventually turn brown. The lesions may also form grayish colored borders around their edges.
+
+\n\nNorthern leaf blight can be treated in the following ways :
+ \n1. Planting types of corn seeds that are resistant to leaf blight,
+        in indonesia there are semar-2, and rama
+ \n2. Destroy the plant by burning the whole stalk of corn
+        infected with blight
+ \n3. Spraying a fungicide containing active mancozeb or
+        dithiocarbamate</string>
+    <string name="dithane_m_45_80_wp">Dithane M-45 80 WP</string>
+    <string name="detail_obat1">Dithane M-45 80 WP is a fungicide containing active ingredient Mankozeb 80% that can be used for leaf blight treatment</string>
+    <string name="amistartop_325_sc_fungisida">Amistartop 325 SC Fungisida</string>
+    <string name="detailobat2">Amistartop 325 SC Fungisida has two active ingredients which is difenoconazole and azoxystrobin to inhibit mold growth for leaf spot</string>
+    <string name="benlox_50_wp">Benlox 50 WP</string>
+    <string name="climate_and_soils">Climate and soils</string>
+    <string name="corn_seeds_selections">Corn seeds selections</string>
+    <string name="planting_distance">Planting Distance</string>
+    <string name="detail_tip1">Choose certified hybrid corn seeds. In every province in Indonesia, this superior type of corn seed is available. Usually corn seeds have been given seed treatment, namely by coating a fungicide on the seeds which functions to protect the plants from various disease attacks and facilitate the conditions for growing corn plants.</string>
+    <string name="detail_tip2"><![CDATA[In general, corn plants can grow in various environmental conditions. For maximum growth, there are several conditions for growing corn plants. The following are the conditions for growing corn plants:
+
+\n\nFor Climate:
+    \n- The climate is subtropical or tropical
+    \n- The ideal rainfall is 85–200 mm/month and should
+       be evenly distributed.
+    \n- A good optimum temperature is 21-34 C
+    \n- The intensity of direct sunlight, at least 8 hours per
+       day
+
+\n\nFor soils:
+    \n- Have a loose soil texture (do the plowing process
+       so that the soil texture is loose).
+    \n- Contains enough nutrient content.
+    \n- Soil pH 5.5-7.5 (if the soil pH is acidic or <5.5,
+       sprinkle dolomite/agricultural lime).
+    \n- Have sufficient water availability.
+    \n- The slope of the land is less than 8%.]]></string>
+    <string name="detail_tip3">In muddy soil conditions, it is best to make beds/mounds so that the seeds are not stagnant with water and do not rot. So the seeds will grow fast and maximum.
+
+\nThe width of the beds is 100 cm and the distance between the beds is 50 cm. The distance in the rows is 20-25 cm, so that the distance for planting corn, whether using beds or not using beds, is 75cm x 25cm or 75cm x 20cm.
+
+\nAfter that, make a planting hole with a hammer as deep as 5-10 cm then add the corn seeds and cover with bokashi. After that, spray with GDM POC on the former planting hole. This serves to accelerate plant growth and protect plants from disease.</string>
+    <string name="confidence">Confidence:</string>
 </resources>
